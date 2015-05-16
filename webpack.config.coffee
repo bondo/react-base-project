@@ -6,7 +6,7 @@ module.exports =
 		'webpack-dev-server/client?http://0.0.0.0:8080'
 		'webpack/hot/only-dev-server'
 		'./src/scripts/main'
-	],
+	]
 
 	devtool: 'eval'
 	debug: true
@@ -26,7 +26,7 @@ module.exports =
 
 	module:
 		loaders: [
-			{ test: /\.css$/, loaders: ['style', 'css'] },
-			{ test: /\.cjsx$/, loaders: ['react-hot', 'coffee', 'cjsx'] },
+			{ test: /\.css$/, loaders: ['style', 'css'] }
+			{ test: /\.cjsx$/, loaders: ['react-hot', 'coffee', 'cjsx'] }
 			{ test: /\.coffee$/, loader: 'coffee' }
 		]
