@@ -1,6 +1,5 @@
 gulp = require 'gulp'
 path = require 'path'
-map = require 'map-stream'
 touch = require 'touch'
 LessPluginCleanCSS = require 'less-plugin-clean-css'
 webpack = require 'webpack'
@@ -14,11 +13,8 @@ gulp.task 'css', ->
     gulp.src 'src/styles/**/*.less'
     .pipe $.less plugins: [ new LessPluginCleanCSS advanced: true ]
     .on 'error', (err) -> $.util.log err
-    .pipe $.size()
     .pipe gulp.dest './public'
-    .pipe map (a, cb) ->
-        devServer.invalidate?()
-        cb()
+    .pipe $.size()
 
 gulp.task 'copy-assets', ->
     gulp.src ['assets/**', '!assets/**/*~']

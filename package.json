@@ -27,7 +27,6 @@
     "gulp-less": "~3.0.3",
     "less-plugin-clean-css": "~1.5.0",
     "gulp-util": "~3.0.4",
-    "map-stream": "0.0.5",
     "gulp-load-plugins": "~0.10.0",
     "gulp-size": "~1.2.1",
     "touch": "0.0.3"
