@@ -1,0 +1,35 @@
+{
+  "name": "react-base-project",
+  "version": "0.0.1",
+  "description": "React base project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": "bondo/react-base-project",
+  "author": "Bjarke Bondo Andersen",
+  "license": "BSD",
+  "dependencies": {
+    "react": "~0.13.3"
+  },
+  "devDependencies": {
+    "cjsx-loader": "~2.0.1",
+    "node-libs-browser": "~0.5.0",
+    "coffee-loader": "~0.7.2",
+    "coffee-react-transform": "~3.1.0",
+    "coffee-script": "~1.9.2",
+    "react-hot-loader": "~1.2.7",
+    "style-loader": "~0.12.2",
+    "css-loader": "~0.12.1",
+    "webpack": "~1.9.5",
+    "webpack-dev-server": "~1.8.2",
+    "gulp": "~3.8.11",
+    "gulp-less": "~3.0.3",
+    "less-plugin-clean-css": "~1.5.0",
+    "gulp-util": "~3.0.4",
+    "map-stream": "0.0.5",
+    "gulp-load-plugins": "~0.10.0",
+    "gulp-size": "~1.2.1",
+    "touch": "0.0.3"
+  }
+}
